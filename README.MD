@@ -46,6 +46,17 @@ https://github.com/typicode/json-server
 		"name": "Jane Doe",
 		"title": "CEO"
 	}
+  ],
+  "roles": [
+	{
+		"role_name": "READ"
+	},
+	{
+		"role_name": "WRITE"
+	},
+	{
+		"role_name": "ADMIN"
+	}
   ]
 }
 ```	
@@ -67,7 +78,16 @@ https://github.com/typicode/json-server
 
 ## Sample requests:
 
-	
+#### Request: GET
+`http://localhost:3001/roles?role_name=READ`
+#### Response:
+```
+[
+  {
+	"role_name": "READ"
+  }
+]
+```	
 ## More info:	
 - You can use GET, POST, PUT, PATCH or DELETE requests > changes will be automatically and safely saved to db.json
 - Your request body JSON should be object enclosed, just like the GET output. (for example {"name": "Foobar"})
