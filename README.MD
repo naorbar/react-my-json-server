@@ -1,12 +1,14 @@
-# Create a fake local server for development purposes, based on json-server project: 
-More info can be found here:
-https://my-json-server.typicode.com/
+# This is an example on how to create a fake local server for development purposes, based on json-server project: 
+More info about  json-server project can be found here:
 
+https://my-json-server.typicode.com/</BR>
 https://github.com/typicode/json-server
 
 ## To create a server: 
-- npm install -g json-server 
-	it will install the dependencies to a global folder, e.g. `C:\Users\barna10\AppData\Roaming\npm\node_modules\`
+- `npm install -g json-server` 
+	it will install the dependencies to a global folder, 
+	e.g.
+	`C:\Users\username\AppData\Roaming\npm\node_modules\`
 - Create a local folder, e.g. `C:\temp\my-json-server`
 - Create a `db.json` file in the given folder:
 ```
@@ -48,13 +50,15 @@ https://github.com/typicode/json-server
 }
 ```	
 	
-- `cd` to the server's folder and start the server - it will load the given db.json file and print the supported urls: 
-	`json-server --watch db.json`
-- Browse to the server on: 
-	`http://localhost:3000/`	
+- `cd` to the server's folder
+- `json-server --watch db.json` to start the server - it will load the given db.json file and print the supported urls
+- Browse to the server on: `http://localhost:3000/`	
+	
 	e.g.
-	`http://localhost:3000/posts`
-	`http://localhost:3000/users`
+	```
+	http://localhost:3000/posts
+	http://localhost:3000/users
+	```
 
 ## Sample requests:
 
