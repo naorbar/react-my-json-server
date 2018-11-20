@@ -117,6 +117,22 @@ GET `http://localhost:3001/roles?role_name_like=ITE`
 ]
 ```
 #
+#### Request: Add a new role ("id" field is mandatory):
+POST `http://localhost:3001/roles`
+```
+{
+	"id": "1000",
+	"role_name": "NEW_ROLE"
+}
+```
+#### Response:
+```
+{
+	"id": "1000",
+	"role_name": "NEW_ROLE"
+}
+```
+#
 
 ## More info:	
 - You can use GET, POST, PUT, PATCH or DELETE requests > changes will be automatically and safely saved to db.json
