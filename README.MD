@@ -1,5 +1,7 @@
 # Create a fake local server for development purposes, based on json-server project: 
+More info can be found here:
 https://my-json-server.typicode.com/
+
 https://github.com/typicode/json-server
 
 ## To create a server: 
