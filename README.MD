@@ -59,6 +59,11 @@ https://github.com/typicode/json-server
 	http://localhost:3000/posts
 	http://localhost:3000/users
 	```
+- To start the server on a different port use: `json-server --watch db.json -p <port>`
+
+	e.g.
+	
+	`json-server --watch db.json -p 3001`
 
 ## Sample requests:
 
