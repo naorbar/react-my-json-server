@@ -4,7 +4,7 @@ More info about  json-server project can be found here:
 https://my-json-server.typicode.com/</BR>
 https://github.com/typicode/json-server
 
-## To create a server: 
+## To create a fake server: 
 - `npm install -g json-server` 
 	it will install the dependencies to a global folder, 
 	e.g.
